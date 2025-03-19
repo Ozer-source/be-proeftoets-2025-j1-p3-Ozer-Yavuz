@@ -21,4 +21,13 @@ class Smartphones extends BaseController
 
         $this->view('smartphones/index', $data);
     }
+    public function delete($Id)
+    {
+        $result = $this->smartphonesModel->deleteSmartphone($Id);
+
+        header("Location:". URLROOT. "/smartphones/index");
+
+
+        
+    }
 }

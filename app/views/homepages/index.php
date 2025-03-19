@@ -10,7 +10,13 @@
 
             <h3><?php echo $data['title']; ?></h3>
 
-            <a href="<?= URLROOT; ?>/smartphones/index">Overzicht smartphones</a>
+            <a href="<?= URLROOT; ?>/smartphones/index">Overzicht smartphones</a><br>
+            <a href="<?= URLROOT; ?>/Sneakers/index">Overzicht Sneakers</a><br>
+            <a href="<?= URLROOT; ?>/Laptops/index">Overzicht Laptops</a><br>
+            <a href="<?= URLROOT; ?>/Toren/index">Overzicht Toren</a><br>
+            <a href="<?= URLROOT; ?>/Speakers/index">Overzicht Speakers</a><br>
+            <a href="<?= URLROOT; ?>/Zanger/index">Overzicht Zangers</a>
+
 
         </div>
         

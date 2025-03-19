@@ -17,3 +17,4 @@ define('URLROOT', 'http://www.mvc-startertemplate-2408a.nl');
  * Het pad naar de folder app
  */
 define('APPROOT', dirname(dirname(__FILE__)));
+
